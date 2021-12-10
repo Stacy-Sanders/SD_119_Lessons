@@ -20,13 +20,15 @@ namespace _00_MorningChallenges
 
             Console.WriteLine($" {user.FirstName} { user.LastName}");
             Console.WriteLine($"{user.FirstName} is {user.Age} years old.");
+            Console.WriteLine($" Hello { user.FirstName} { user.LastName}");
+
 
             //User user1 = new User("Sydney", "Donato", ID, new DateTime(2005, 06, 22));
 
             //Console.WriteLine($"ID: {user1.ID}\n" +
-              //                 $"Name: {user1.FullName()}\n" +
-                //               $"BirthDate: {user1.BirthDate}\n" +
-                  //             $"Age: {user1.Age()}\n");
+            //                 $"Name: {user1.FullName()}\n" +
+            //               $"BirthDate: {user1.BirthDate}\n" +
+            //             $"Age: {user1.Age()}\n");
         }
 
     }
